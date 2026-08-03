@@ -1,0 +1,32 @@
+node_modules
+dist
+.DS_Store
+*.local
+.venv
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+apps/frontend/dist/
+apps/backend/tmp_dd.json
+apps/backend/.env
+apps/frontend/.env
+apps/frontend/.env.local
+apps/frontend/.env.production
+
+# Playwright MCP session artifacts (local UI verification only)
+.playwright-mcp/
+
+# Deploy packaging / local screenshots
+backend-deploy.zip
+.backend-deploy-staging/
+premium-sources-expanded.png
+
+# Local secrets - never commit
+.env
+.env.local
+.env.*.local
+Origami API.txt
+*API*.txt
+*credential*
+# Do not use *secret* — it matches secret_loader.py
