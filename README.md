@@ -4,6 +4,14 @@ Structured-data insurance copilot: **React + FastAPI + Azure OpenAI** with embed
 
 Portfolio showcase of production-style architecture built during an AI engineering internship. Uses a **synthetic demo dataset** by default; no proprietary RMIS mappings or employer infrastructure are included.
 
+## Documentation
+
+| Doc | Audience |
+|-----|----------|
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System design, request pipeline, API surface |
+| [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) | Step-by-step local setup and code tour |
+| [AGENTS.md](AGENTS.md) | **AI coding agents** — read this first for repo context |
+
 ## Highlights
 
 - **Intent routing** — embedding centroids + rule fallback (`GREETING`, `CLAIMS`, `POLICY`, `PREMIUM`, `HELP`)
@@ -72,11 +80,14 @@ AZURE_OPENAI_MODEL=gpt-4o
 
 ```text
 ias-insurance-intelligence/
+├── AGENTS.md              # AI agent context (Cursor, Copilot, Claude, …)
+├── docs/
+│   ├── ARCHITECTURE.md
+│   └── WALKTHROUGH.md
 ├── apps/
 │   ├── frontend/          # React chat UI
 │   └── backend/app/       # FastAPI — intent, retrieval, chat
-├── scripts/               # run-backend.ps1, run-frontend.ps1
-└── README.md
+└── scripts/               # run-backend.ps1, run-frontend.ps1
 ```
 
 ## Related work
