@@ -3,8 +3,8 @@
 Structured-data insurance copilot: **React + FastAPI + Azure OpenAI** with embedding-based intent routing. Answers business questions by fetching structured insurance records on demand — **not RAG**.
 
 > **Employer project:** Built during an AI Engineering internship at **Revantage** (Blackstone portfolio company).  
-> **Source of truth:** Azure DevOps (RNA-APP) — deployed by the platform engineering team.  
-> **GitHub:** [Sanitized portfolio mirror](docs/SOURCE_AND_PORTFOLIO.md) — you will **not** see ADO commits, PRs, or deployment history here.
+> **Source of truth:** Azure DevOps (`RevantageCS/RNA-APP`) — deployed by the platform engineering team.  
+> **GitHub:** [Sanitized portfolio mirror](docs/SOURCE_AND_PORTFOLIO.md) — commit history and deployment activity are **not** visible here.
 
 Uses a **synthetic demo dataset** by default; no proprietary RMIS mappings or employer infrastructure are included.
 
@@ -12,7 +12,7 @@ Uses a **synthetic demo dataset** by default; no proprietary RMIS mappings or em
 
 | Doc | Audience |
 |-----|----------|
-| [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md) | **Recruiters** — ADO vs GitHub |
+| [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md) | **Recruiters:** ADO vs GitHub, what you can/can't see |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System design, request pipeline, API surface |
 | [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) | Step-by-step local setup and code tour |
 | [AGENTS.md](AGENTS.md) | **AI coding agents** — read this first for repo context |

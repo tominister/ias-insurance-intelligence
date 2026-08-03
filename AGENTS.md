@@ -2,7 +2,7 @@
 
 **Read this first** if you are an AI coding agent working in this repository.
 
-Human docs: [README.md](README.md) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) · [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md)
+Human docs: [README.md](README.md) · [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md)
 
 ---
 
@@ -12,13 +12,13 @@ Human docs: [README.md](README.md) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.m
 |-------|-------|
 | Name | Insurance Intelligence Assistant **(REVANTAGE)** |
 | Employer | Revantage — Blackstone portfolio company |
-| Canonical source | **Azure DevOps** (RNA-APP) — not GitHub |
-| GitHub | `tominister/ias-insurance-intelligence` — sanitized portfolio mirror |
-| Owner | Haoran (Tommy) Fang |
+| Canonical source | Azure DevOps `RevantageCS/RNA-APP/ias-insurance-intelligence` |
+| GitHub | `tominister/ias-insurance-intelligence` — sanitized portfolio mirror only |
+| Owner | Haoran (Tommy) Fang — AI Engineering intern, Revantage |
 | Pattern | **Structured-data copilot** — NOT RAG |
 | Default data | Synthetic mock dataset (`USE_MOCK_DATA=true`) |
 
-**Workflow:** Develop in ADO first → push to GitHub only after owner approval.
+**Workflow:** Develop in ADO first; push to GitHub only when the intern approves. Recruiters cannot see ADO commits, PRs, or deploy history.
 
 **Do not confuse with:** [ias-loan-agreement-extraction **(REVANTAGE)**](https://github.com/tominister/ias-loan-agreement-extraction) (RAG over PDFs).
 
