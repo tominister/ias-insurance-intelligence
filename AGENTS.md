@@ -1,8 +1,8 @@
-# AGENTS.md — Insurance Intelligence Assistant
+# AGENTS.md — Insurance Intelligence Assistant **(REVANTAGE)**
 
-**Read this first** if you are an AI coding agent (Cursor, Claude Code, GitHub Copilot, Codex, etc.) working in this repository.
+**Read this first** if you are an AI coding agent working in this repository.
 
-Human docs: [README.md](README.md) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md)
+Human docs: [README.md](README.md) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) · [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md)
 
 ---
 
@@ -10,13 +10,17 @@ Human docs: [README.md](README.md) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.m
 
 | Field | Value |
 |-------|-------|
-| Name | Insurance Intelligence Assistant |
-| GitHub | `tominister/ias-insurance-intelligence` |
-| Owner | Haoran (Tommy) Fang — portfolio showcase |
+| Name | Insurance Intelligence Assistant **(REVANTAGE)** |
+| Employer | Revantage — Blackstone portfolio company |
+| Canonical source | **Azure DevOps** (RNA-APP) — not GitHub |
+| GitHub | `tominister/ias-insurance-intelligence` — sanitized portfolio mirror |
+| Owner | Haoran (Tommy) Fang |
 | Pattern | **Structured-data copilot** — NOT RAG |
 | Default data | Synthetic mock dataset (`USE_MOCK_DATA=true`) |
 
-**Do not confuse with:** [ias-loan-agreement-extraction](https://github.com/tominister/ias-loan-agreement-extraction) (RAG over PDFs).
+**Workflow:** Develop in ADO first → push to GitHub only after owner approval.
+
+**Do not confuse with:** [ias-loan-agreement-extraction **(REVANTAGE)**](https://github.com/tominister/ias-loan-agreement-extraction) (RAG over PDFs).
 
 ---
 

@@ -1,13 +1,18 @@
-# Insurance Intelligence Assistant
+# Insurance Intelligence Assistant — **(REVANTAGE)**
 
 Structured-data insurance copilot: **React + FastAPI + Azure OpenAI** with embedding-based intent routing. Answers business questions by fetching structured insurance records on demand — **not RAG**.
 
-Portfolio showcase of production-style architecture built during an AI engineering internship. Uses a **synthetic demo dataset** by default; no proprietary RMIS mappings or employer infrastructure are included.
+> **Employer project:** Built during an AI Engineering internship at **Revantage** (Blackstone portfolio company).  
+> **Source of truth:** Azure DevOps (RNA-APP) — deployed by the platform engineering team.  
+> **GitHub:** [Sanitized portfolio mirror](docs/SOURCE_AND_PORTFOLIO.md) — you will **not** see ADO commits, PRs, or deployment history here.
+
+Uses a **synthetic demo dataset** by default; no proprietary RMIS mappings or employer infrastructure are included.
 
 ## Documentation
 
 | Doc | Audience |
 |-----|----------|
+| [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md) | **Recruiters** — ADO vs GitHub |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System design, request pipeline, API surface |
 | [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md) | Step-by-step local setup and code tour |
 | [AGENTS.md](AGENTS.md) | **AI coding agents** — read this first for repo context |
@@ -80,19 +85,20 @@ AZURE_OPENAI_MODEL=gpt-4o
 
 ```text
 ias-insurance-intelligence/
-├── AGENTS.md              # AI agent context (Cursor, Copilot, Claude, …)
+├── AGENTS.md
 ├── docs/
+│   ├── SOURCE_AND_PORTFOLIO.md
 │   ├── ARCHITECTURE.md
 │   └── WALKTHROUGH.md
 ├── apps/
-│   ├── frontend/          # React chat UI
-│   └── backend/app/       # FastAPI — intent, retrieval, chat
-└── scripts/               # run-backend.ps1, run-frontend.ps1
+│   ├── frontend/
+│   └── backend/app/
+└── scripts/
 ```
 
 ## Related work
 
-- [ias-loan-agreement-extraction](https://github.com/tominister/ias-loan-agreement-extraction) — RAG document extraction (PDF → pgvector → Azure OpenAI)
+- [ias-loan-agreement-extraction **(REVANTAGE)**](https://github.com/tominister/ias-loan-agreement-extraction) — RAG document extraction
 - [intent-llm-chatbot](https://github.com/tominister/intent-llm-chatbot) — Flask intent + LLM chatbot
 
 ## License
@@ -101,4 +107,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Disclaimer
 
-This repository is a **sanitized portfolio version**. It does not include proprietary employer code, internal infrastructure, or live RMIS integration details.
+Sanitized **portfolio mirror** of employer work. Canonical development and deployment occur in **Azure DevOps**, not on GitHub. See [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md).

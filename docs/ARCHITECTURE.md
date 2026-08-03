@@ -1,7 +1,7 @@
-# Architecture — Insurance Intelligence Assistant
+# Architecture — Insurance Intelligence Assistant **(REVANTAGE)**
 
-**Repository:** [tominister/ias-insurance-intelligence](https://github.com/tominister/ias-insurance-intelligence)  
-**Type:** Sanitized portfolio showcase (demo dataset; no proprietary RMIS mappings)
+**Employer:** Revantage (Blackstone portfolio company). **Canonical repo:** Azure DevOps — see [SOURCE_AND_PORTFOLIO.md](./SOURCE_AND_PORTFOLIO.md).  
+**GitHub:** [tominister/ias-insurance-intelligence](https://github.com/tominister/ias-insurance-intelligence) — sanitized portfolio mirror.
 
 ---
 
