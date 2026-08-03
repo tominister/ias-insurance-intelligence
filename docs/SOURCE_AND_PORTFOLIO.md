@@ -14,7 +14,7 @@
 
 | | Azure DevOps (canonical) | GitHub (portfolio) |
 |---|---|---|
-| **Repo** | `RevantageCS/RNA-APP/ias-insurance-intelligence` (private) | [github.com/tominister/ias-insurance-intelligence](https://github.com/tominister/ias-insurance-intelligence) |
+| **Repo** | `RevantageCS/RNA-APP/ias-insurance-intelligence` (private) | [github.com/tominister/revantage-ias-insurance-intelligence](https://github.com/tominister/revantage-ias-insurance-intelligence) |
 | **Purpose** | Production development, PRs, CI/CD, hosted deploy | Sanitized public showcase for recruiters |
 | **Commit history** | Full team history | Periodic snapshots only — **not** the live dev timeline |
 | **Deployment** | Platform team deploys to Azure | Not deployed from GitHub |
@@ -35,7 +35,7 @@
 ## Related Revantage project
 
 **Loan Agreement Insurance Extraction** — RAG over loan agreement PDFs (pgvector, async jobs, feedback learning). Same ADO → GitHub mirror pattern.  
-GitHub: [ias-loan-agreement-extraction](https://github.com/tominister/ias-loan-agreement-extraction)
+GitHub: [ias-loan-agreement-extraction](https://github.com/tominister/revantage-ias-loan-agreement-extraction)
 
 ---
 

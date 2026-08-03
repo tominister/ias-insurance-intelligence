@@ -98,7 +98,7 @@ ias-insurance-intelligence/
 
 ## Related work
 
-- [ias-loan-agreement-extraction **(REVANTAGE)**](https://github.com/tominister/ias-loan-agreement-extraction) — RAG document extraction
+- [ias-loan-agreement-extraction **(REVANTAGE)**](https://github.com/tominister/revantage-ias-loan-agreement-extraction) — RAG document extraction
 - [intent-llm-chatbot](https://github.com/tominister/intent-llm-chatbot) — Flask intent + LLM chatbot
 
 ## License

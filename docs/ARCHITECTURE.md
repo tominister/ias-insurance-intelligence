@@ -2,7 +2,7 @@
 
 **Employer:** Revantage (Blackstone portfolio company)  
 **Canonical source:** Azure DevOps `RevantageCS/RNA-APP/ias-insurance-intelligence` (private)  
-**GitHub mirror:** [tominister/ias-insurance-intelligence](https://github.com/tominister/ias-insurance-intelligence) — sanitized portfolio; see [SOURCE_AND_PORTFOLIO.md](SOURCE_AND_PORTFOLIO.md)  
+**GitHub mirror:** [tominister/ias-insurance-intelligence](https://github.com/tominister/revantage-ias-insurance-intelligence) — sanitized portfolio; see [SOURCE_AND_PORTFOLIO.md](SOURCE_AND_PORTFOLIO.md)  
 **Type:** Sanitized portfolio showcase (demo dataset; no proprietary RMIS mappings)
 
 ---
@@ -11,7 +11,7 @@
 
 Natural-language access to **structured insurance data** (policies, claims, programs, premiums). The assistant fetches records **on demand per question** and grounds Azure OpenAI answers in that context with **source metadata**.
 
-This is **not RAG**. There is no vector store, no document chunking, and no embedding retrieval over unstructured text. Compare with [ias-loan-agreement-extraction](https://github.com/tominister/ias-loan-agreement-extraction), which *is* RAG.
+This is **not RAG**. There is no vector store, no document chunking, and no embedding retrieval over unstructured text. Compare with [ias-loan-agreement-extraction](https://github.com/tominister/revantage-ias-loan-agreement-extraction), which *is* RAG.
 
 The durable design pattern here is a **tool-using data assistant**: intent → structured fetch → context assembly → LLM response.
 
