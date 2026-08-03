@@ -34,7 +34,7 @@ Azure OpenAI credentials are **optional** — the app returns structured context
 ## Step 1 — Clone and open
 
 ```powershell
-git clone https://github.com/tominister/revantage-ias-insurance-intelligence.git
+git clone https://github.com/tominister/ias-insurance-intelligence-revantage.git
 cd ias-insurance-intelligence
 ```
 
@@ -220,8 +220,8 @@ VITE_AUTH_ENABLED=true
 
 | Repo | Pattern |
 |------|---------|
-| [ias-insurance-intelligence](https://github.com/tominister/revantage-ias-insurance-intelligence) | Structured data assistant (this repo) |
-| [ias-loan-agreement-extraction](https://github.com/tominister/revantage-ias-loan-agreement-extraction) | RAG document extraction |
+| [ias-insurance-intelligence](https://github.com/tominister/ias-insurance-intelligence-revantage) | Structured data assistant (this repo) |
+| [ias-loan-agreement-extraction](https://github.com/tominister/ias-loan-agreement-extraction-revantage) | RAG document extraction |
 | [intent-llm-chatbot](https://github.com/tominister/intent-llm-chatbot) | Intent + LLM (Flask) |
 
 ---

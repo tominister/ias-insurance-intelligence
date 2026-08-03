@@ -13,14 +13,14 @@ Human docs: [README.md](README.md) · [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE
 | Name | Insurance Intelligence Assistant **(REVANTAGE)** |
 | Employer | Revantage — Blackstone portfolio company |
 | Canonical source | Azure DevOps `RevantageCS/RNA-APP/ias-insurance-intelligence` |
-| GitHub | `tominister/revantage-ias-insurance-intelligence` — sanitized portfolio mirror only |
+| GitHub | `tominister/ias-insurance-intelligence-revantage` — sanitized portfolio mirror only |
 | Owner | Haoran (Tommy) Fang — AI Engineering intern, Revantage |
 | Pattern | **Structured-data copilot** — NOT RAG |
 | Default data | Synthetic mock dataset (`USE_MOCK_DATA=true`) |
 
 **Workflow:** Develop in ADO first; push to GitHub only when the intern approves. Recruiters cannot see ADO commits, PRs, or deploy history.
 
-**Do not confuse with:** [ias-loan-agreement-extraction **(REVANTAGE)**](https://github.com/tominister/revantage-ias-loan-agreement-extraction) (RAG over PDFs).
+**Do not confuse with:** [ias-loan-agreement-extraction **(REVANTAGE)**](https://github.com/tominister/ias-loan-agreement-extraction-revantage) (RAG over PDFs).
 
 ---
 
