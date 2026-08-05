@@ -108,3 +108,8 @@ ias-insurance-intelligence/
 ## Disclaimer
 
 Sanitized **portfolio mirror** of employer work. Canonical development and deployment occur in **Azure DevOps**, not on GitHub. See [docs/SOURCE_AND_PORTFOLIO.md](docs/SOURCE_AND_PORTFOLIO.md).
+
+
+## Evaluation status
+
+**Evaluation status:** This portfolio mirror does not publish a formal benchmark or production evaluation dataset. Current validation focuses on deterministic routing behavior, source-grounded responses, and synthetic/mock-data workflows; formal benchmark coverage remains future work.
